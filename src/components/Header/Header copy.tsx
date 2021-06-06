@@ -11,8 +11,8 @@ import {
 } from '@material-ui/core';
 
 import MenuIcon from '@material-ui/icons/Menu';
-import React, { useState, useEffect } from 'react';
-import { Link as RouterLink } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { NavLink as RouterLink } from 'react-router-dom';
 
 const headersData = [
   {
