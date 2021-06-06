@@ -36,6 +36,7 @@ body {
   font-family: var(--font-family-main);
   font-size: var(--font-size-main);
   background-color: var(--theme-default-bgcolor);
+  color: var(--color-dark-gray);
 }
 
 .header__text {
@@ -51,13 +52,11 @@ body {
   body {
     font-size: var(--font-size-main-mobile);
   }
-	.header__text {
-		font-size: var(--font-size-header-mobile);
-	}
+  .header__text {
+    font-size: var(--font-size-header-mobile);
+  }
 }
 
 img {
   display: block;
 }
-
-

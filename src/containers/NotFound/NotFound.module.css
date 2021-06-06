@@ -6,14 +6,15 @@
 .text {
   margin-top: var(--spacing-large);
   font-size: var(--font-size-subheader);
-  color: var(--color-white);
   text-align: center;
+  
+  font-weight: var(--font-regular);
 }
 
-@media (max-width: 371px) {
+@media (max-width: 570px) {
   .img {
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
     object-fit: contain;
   }
 }
