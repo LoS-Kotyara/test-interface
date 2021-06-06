@@ -1,11 +1,9 @@
 import { Switch, Route } from 'react-router-dom';
 
-import { Container } from '@material-ui/core';
-
 import routesConfig from '@routes/routesConfig';
 
 const Main = () => (
-  <Container>
+  <div>
     <Switch>
       {routesConfig.map((route, index) => (
         <Route
@@ -16,7 +14,7 @@ const Main = () => (
         />
       ))}
     </Switch>
-  </Container>
+  </div>
 );
 
 export default Main;
