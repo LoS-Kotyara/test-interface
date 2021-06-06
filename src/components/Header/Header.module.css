@@ -3,8 +3,6 @@
   align-items: center;
   margin-bottom: var(--spacing-large);
   justify-content: space-between;
-
-  
 }
 
 .logo h1 {
@@ -20,7 +18,6 @@
 }
 
 .logo:hover {
-
 }
 
 .navBar {
@@ -50,7 +47,7 @@
   font-variant: small-caps;
   text-decoration: none;
   font-weight: var(--font-regular);
-  
+
   transition: var(--transition);
 }
 
@@ -60,11 +57,29 @@
   text-shadow: none;
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 300px) {
+  .container {
+    justify-content: center;
+  }
+  .list__container {
+    flex-direction: column;
+  }
+  .list__container a {
+    margin: 5px 0;
+  }
+}
+
+@media screen and (max-width: 371px) {
   .list__container a {
     margin: 0 7px;
     padding: 5px 0px;
     min-width: 52px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .list__container a {
+    min-width: 60px;
   }
 }
 
