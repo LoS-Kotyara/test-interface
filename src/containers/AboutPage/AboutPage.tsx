@@ -7,7 +7,7 @@ const AboutPage = () => {
       <div className={styles.content}>
         {`Web application to control LED strip.
         
-        Build with React.
+        Built with React.
         `}
       </div>
     </>
